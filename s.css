@@ -1,0 +1,236 @@
+body
+{
+	background: url(image.jpg);
+    width:50%;
+    overflow-x:hidden;
+	background-size:150% 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a
+{
+	color:black;
+	font-size: 20px;
+	padding: 8px;
+	text-decoration:none; 
+}
+a:hover {
+	text-decoration:underline;
+	color:red; 
+}
+.a1
+{
+ position: relative;
+ left: 50%;
+}
+.a2
+{
+position:relative;
+ left: 50%;
+}
+.a3
+{
+position:relative;
+ left: 50%;
+}
+.a4
+{
+position:relative;
+ left: 50%;
+}
+.a5
+{
+ position: absolute;
+ padding-top:1px;
+ top:60px;
+ font-size: 50px;
+ color:red;
+
+}
+.a5:hover
+{
+	color: black;
+}
+.logih2
+{
+	text-align: center;
+	margin-top: 250px;
+	margin-left: 500px;
+	color:black;
+	text-decoration:underline;
+	height:300px;
+	width: 360px;
+	border-color: orange;
+	position: relative;
+	transform: translate(-50%,-50%);
+	background:rgba(255,255,255,0.2);
+	box-shadow: 0px 4px 16px 4px black;
+	z-index: -6;
+}
+.regh2
+{
+	text-align: center;
+	margin-top: 350px;
+	margin-left: 450px;
+	color:black;
+	text-decoration:underline;
+	height:490px;
+	width: 360px;
+	position: relative;
+	transform: translate(-50%,-50%);
+	background:rgba(255,255,255,0.1);
+	box-shadow: 0px 4px 16px  4px black;
+	opacity: 0.8;
+	margin-top:25px;
+	z-index: -6;
+}
+.regform
+{
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 45;
+	margin-top: -685px;
+	z-index: 1;
+}
+.form
+{
+	text-align: center;
+	font-size: 25px;
+	font-style: bold;
+	font-weight: 45;
+	margin-top: -405px;
+	z-index: 1;
+}
+button
+{
+	color: black;
+	background:transparent;
+	size:25px;
+	border: thick;
+	border-radius: 5px;
+}
+.u1
+{
+	border-radius: 10px;
+	color: black;
+	position: fixed;
+	left:420px;
+	padding: 8px;
+	background:rgba(255,255,255,0);
+	box-shadow: 0px 4px 16px 4px black;
+	border-color: black;
+	border:thick;
+}
+.u
+{
+	border-radius: 10px;
+	position: fixed;
+	color: black;
+	font-size: 15px;
+	font-style: bold;
+	left:690px;
+	padding: 8px;
+	background:transparent ;
+	box-shadow: 0px 4px 16px 4px black;
+	border-color: black;
+	border:thick;
+}
+::-webkit-input-placeholder{
+	font-size: 15px;
+	font-style: bold;
+	color:black;
+}
+.submit
+{
+	border:thick;
+	color:black;
+	position: fixed;
+	left: 420px;
+	font-size: 20px;
+	box-shadow: 0px 4px 16px 4px black;
+}
+.submit:hover
+{
+	color: red;
+	background-color: white;
+}
+.submit1
+{
+	border:thick;
+	color:black;
+	position:fixed;
+	left: 470px;
+	font-size: 20px;
+	box-shadow: 0px 4px 16px 4px black;
+}
+.submit1:hover
+{
+	background-color: white;
+	color:red;
+}
+.r
+{
+	font-size: 35px;
+	position: relative;
+}
+.cross
+{
+	position: relative;
+	font-size: 45px;
+	color: red;		
+	top:250px;
+}
+.cross:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+.re
+{
+	text-align: center;
+	background-color: white;
+	height: 380px;
+	width: 350px;
+	position: relative;
+	z-index: -1;
+	margin-left: 250px;
+	margin-top: 110px;
+	background:rgba(255,255,255,0);
+	box-shadow: 0px 4px 16px 4px black;
+	
+}
+.c
+{
+	text-align: center;
+	margin-left: 325px;
+	position:absolute;
+	z-index: 6;
+	padding: 3px;
+	padding-bottom: 3px;
+	border-radius: 7px;
+	font-size: 15px;
+	margin-top:-350px;
+	background:rgba(255,255,255,0);
+	box-shadow: 0px 4px 16px 4px black;
+}
+.c2
+{
+	margin-top: -330px;
+	margin-left: 390px;
+	position: absolute;
+	border:bold;
+	border-color:black;
+	color:black
+	font-size: 18px;
+	background-color: black;
+	background:rgba(255,255,255,0);
+	box-shadow: 0px 4px 16px 4px black;
+}
+.c2:hover
+{
+	background-color: white;
+	color:red;
+}
